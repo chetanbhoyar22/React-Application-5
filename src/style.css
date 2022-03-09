@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.design
+{
+    font-Size: 35px;
+    text-Align: center;
+    padding-Top: 15%;
+    color: darkblue;
+}
+.header{
+    font-family: 'Dancing Script', cursive;
+    background-color: #21325E;
+    display: flex;
+    width: 100%;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 0px;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px 0 10px 0;
+}
+.fun{
+    color: white;
+    text-decoration: none;
+}
+.fun:hover{
+    color: pink;
+    cursor: pointer;
+}
+#screen
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(lightblue,pink,lightblue);
+    height: 100vh;
+}
+#heading
+{
+    position: relative;
+    top:60px;
+    margin-left: 40px;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+#btn
+{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: bolder;
+    background-color:aliceblue;
+    float: right;
+    margin-right: 40px;
+    height: 50px;
+    width: 280px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+#table
+{
+    position: relative;
+    top: 120px;
+    width: 1460px;
+    margin-left: 40px;
+}
+.f_design{
+    margin-left: 150px;
+    margin-top: 60px;
+}
+.cancel_btn{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: bolder;
+    background-color:gray;
+    margin-top: 60px;
+    margin-left: 820px;
+    height: 60px;
+    width: 300px;
+    border-radius: 35px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.submit_btn
+{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: bolder;
+    background-color:aliceblue;
+    margin-top: 60px;
+    height: 60px;
+    width: 300px;
+    border-radius: 35px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid black;
+}
